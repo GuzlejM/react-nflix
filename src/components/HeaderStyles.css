@@ -1,0 +1,28 @@
+.header-wrapper-home {
+  background: url("../../public/images/misc/home-bg.jpg");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 50px;
+}
+
+.navbar-home {
+  max-width: 1850px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 175px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 550px) {
+  .navbar-home {
+    margin-bottom: 100px;
+  }
+}
+
+.logo {
+  height: 50px;
+  width: 108px;
+}
