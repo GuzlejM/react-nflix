@@ -7,7 +7,7 @@ function Logo({ children, ...restProps }) {
     <div>
       <a href="/" {...restProps}>
         {children}
-        <img class="logo" src={logo} alt="Logo" />
+        <img class="logo" src={logo} alt="Netflix Logo" />
       </a>
     </div>
   );
