@@ -8,6 +8,11 @@ body {
   max-width: 2000px;
   margin: auto;
 }
+button {
+  color: white;
+
+
+}
 
 a {
   text-decoration: none;

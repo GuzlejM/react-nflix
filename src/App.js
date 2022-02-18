@@ -1,4 +1,10 @@
-import { Router, Routes, Route } from "react-router-dom";
+import React from "react";
+import {
+  BrowserRouter as Router,
+  // Switch,
+  Routes,
+  Route,
+} from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 
 function App() {
@@ -6,9 +12,7 @@ function App() {
 
     <Router>
        <Routes>
-        <Route exact path="/">
-          <LandingPage />
-        </Route>
+        <Route path="/" element={<LandingPage/>}/>
       </Routes>
     </Router>
   );
