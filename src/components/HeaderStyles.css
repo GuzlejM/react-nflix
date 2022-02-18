@@ -14,16 +14,35 @@
   margin-bottom: 175px;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 550px) {
   .navbar-home {
     margin-bottom: 100px;
   }
+  .header-wrapper-home{
+    padding: 15px 25px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    height: 60px;
+    width: 108px;
+  }
 }
 
 .logo {
-  height: 60px;
+  height: 30px;
   width: 108px;
 }
 
@@ -38,4 +57,64 @@
   border-radius: 3px;
   padding: 8px 17px;
   cursor: pointer;
+  margin-left: 20px;
 }
+select {
+  position: relative;
+  background: transparent;
+  color: white;
+  appearance: none;
+  padding: 10px 14px;
+  text-align: center;
+  display: flex;
+  border: .5px solid white;
+}
+
+.select-wrapper{
+  position: relative;
+}
+
+.select-pseudo::before {
+  color: white;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  position: absolute;
+  top: 33%;
+  left: 7%;
+  font-size: 12px;
+}
+
+.select-pseudo::after {
+  color: white;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  position: absolute;
+  top: 38%;
+  right: 12%;
+  font-size: 8px;
+  transform: rotate(90deg);
+}
+
+.select-pseudo::after:active {
+  color: red;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+}
+
+.select-pseudo::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0ac";
+}
+
+.select-pseudo::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f04b";
+}
+
