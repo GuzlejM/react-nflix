@@ -1,6 +1,8 @@
 
 import React from "react";
 import HeaderSection from "../sections/HeaderSection";
+import FooterSection from "../sections/FooterSection";
+
 
 function LandingPage() {
   return (
@@ -8,6 +10,7 @@ function LandingPage() {
       <HeaderSection>
         "Hello"
       </HeaderSection>
+      <FooterSection />
     </>
   );
 }

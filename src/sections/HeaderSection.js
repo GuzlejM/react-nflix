@@ -16,7 +16,6 @@ function HeaderSection() {
         <Logo />
         <div className="navbar-right">
         <Select />
-
         <SigninButton>Sign In</SigninButton>
         </div>
       </NavBar>
@@ -24,7 +23,6 @@ function HeaderSection() {
         <FeatureTitle className="feature-title-home">
           Unlimited movies, TV shows and more.
         </FeatureTitle>
-
       </FeatureWrapper>
     </HeaderWrapper>
   );
