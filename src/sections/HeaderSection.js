@@ -6,6 +6,8 @@ import Logo from "../components/Logo";
 import SigninButton from "../components/SigninButton";
 import FeatureWrapper from "../components/FeatureWrapper";
 import FeatureTitle from "../components/FeatureTitle";
+import FormSection from "../sections/FormSection";
+
 
 
 function HeaderSection() {
@@ -23,6 +25,7 @@ function HeaderSection() {
         <FeatureTitle className="feature-title-home">
           Unlimited movies, TV shows and more.
         </FeatureTitle>
+      <FormSection/>
       </FeatureWrapper>
     </HeaderWrapper>
   );

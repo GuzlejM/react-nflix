@@ -3,13 +3,10 @@ import "./FormStyles.css";
 
 function FormButton({ children, ...restProps }) {
   return (
-    <div>
-      <a className="form-button" href="#" {...restProps}>
-        {children}
-        <img
-          className="form-button-image"
-          src=""
-        />
+    <div className="form-button-wrapper">
+      <a className="form-button form-button-wrapper" href="#" {...restProps}>
+        <span className="form-button-span">{children}</span>
+        <i class="fas fa-chevron-right"></i>
       </a>
     </div>
   );

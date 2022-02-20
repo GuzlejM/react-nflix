@@ -87,6 +87,11 @@ select {
   font-size: 12px;
 }
 
+.select-pseudo::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0ac";
+}
 .select-pseudo::after {
   color: white;
   display: inline-block;
@@ -100,22 +105,12 @@ select {
   transform: rotate(90deg);
 }
 
-.select-pseudo::after:active {
-  color: red;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-}
-
-.select-pseudo::before {
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f0ac";
-}
-
 .select-pseudo::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f04b";
 }
+
+
+
 
