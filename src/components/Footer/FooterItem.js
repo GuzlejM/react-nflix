@@ -3,7 +3,7 @@ import "./FooterStyles.css";
 
 function FooterTitle({ children, ...restProps }) {
   return (
-    <a href="#" className="footer-item" {...restProps}>
+    <a href="/" className="footer-item" {...restProps}>
       {children}
     </a>
   );

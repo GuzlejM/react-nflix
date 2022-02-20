@@ -3,23 +3,19 @@ import Select from "react-select";
 import "./HeaderStyles.css";
 
 const options = [
-  { value: "C++", label: "C++" },
-  { value: "JAVA", label: "JAVA" },
-  { value: "Javascript", label: "Javascript" },
-  { value: "Python", label: "Python" },
-  { value: "Swift", label: "Swift" },
+  { value: "English", label: "English" },
+  { value: "Czech", label: "Czech" },
 ];
 
 function DropdownComponent() {
   return (
     <div className="select-wrapper">
-      <div className="select-pseudo">
         <Select
+          className="select-pseudo"
           value={options.value}
           options={options}
-          defaultValue={options[1]}
+          defaultValue={options[0]}
         />
-      </div>
     </div>
   );
 }

@@ -13,17 +13,13 @@ function AccordionHeader({ children, ...restProps }) {
     <div className="accordion-header" onClick={handleClick} {...restProps}>
       {children}
       {AccordionShow ? (
-        <img
-          className="accordion-image"
-          src="../images/icons/close-slim.png"
-          alt="Close"
-        />
+        <div className="accordion-image" >
+          x
+        </div>
       ) : (
-        <img
-          className="accordion-image"
-          src="../images/icons/add.png"
-          alt="Open"
-        />
+        <div className="accordion-image" >
+        +
+      </div>
       )}
     </div>
   );
