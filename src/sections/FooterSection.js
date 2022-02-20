@@ -5,7 +5,7 @@ import FooterColumn from "../components/Footer/FooterColumn";
 import FooterItem from "../components/Footer/FooterItem";
 import FooterSubTitle from "../components/Footer/FooterSubTitle";
 import FooterLinks from "../components/Footer/FooterLinks";
-import Select from "../components/Header/Select";
+import DropdownComponent from "../components/Header/DropdownComponent";
 
 function FooterSection() {
   return (
@@ -36,7 +36,7 @@ function FooterSection() {
           <FooterItem>Contact Us</FooterItem>
         </FooterColumn>
       </FooterLinks>
-      <Select />
+      <DropdownComponent />
       <FooterSubTitle>Netflix Slovakia</FooterSubTitle>
     </FooterWrapper>
   );

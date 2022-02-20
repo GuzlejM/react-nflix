@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderWrapper from "../components/Header/HeaderWrapper";
 import NavBar from "../components/Header/NavBar";
-import Select from "../components/Header/Select";
+import DropdownComponent from "../components/Header/DropdownComponent";
 import Logo from "../components/Header/Logo";
 import SigninButton from "../components/Header/SigninButton";
 import FeatureWrapper from "../components/Header/FeatureWrapper";
@@ -17,7 +17,7 @@ function HeaderSection() {
       <NavBar className="navbar-home">
         <Logo />
         <div className="navbar-right">
-        <Select />
+        <DropdownComponent />
         <SigninButton>Sign In</SigninButton>
         </div>
       </NavBar>
