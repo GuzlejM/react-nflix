@@ -8,6 +8,8 @@ import {
 
 import LandingPage from "./pages/LandingPage";
 import SigninPage from "./pages/SigninPage";
+import BrowsePage from "./pages/BrowsePage";
+
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
        <Routes>
         <Route path="/" element={<LandingPage/>}/>
         <Route path="/signin" element={<SigninPage />}/>
+        <Route path="/browse" element={<BrowsePage />}/>
+
       </Routes>
     </Router>
   );
