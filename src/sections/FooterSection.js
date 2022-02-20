@@ -5,7 +5,7 @@ import FooterColumn from "../components/Footer/FooterColumn";
 import FooterItem from "../components/Footer/FooterItem";
 import FooterSubTitle from "../components/Footer/FooterSubTitle";
 import FooterLinks from "../components/Footer/FooterLinks";
-import Select from "../components/Select";
+import Select from "../components/Header/Select";
 
 function FooterSection() {
   return (

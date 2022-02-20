@@ -1,11 +1,11 @@
 import React from "react";
-import HeaderWrapper from "../components/HeaderWrapper";
-import NavBar from "../components/NavBar";
-import Select from "../components/Select";
-import Logo from "../components/Logo";
-import SigninButton from "../components/SigninButton";
-import FeatureWrapper from "../components/FeatureWrapper";
-import FeatureTitle from "../components/FeatureTitle";
+import HeaderWrapper from "../components/Header/HeaderWrapper";
+import NavBar from "../components/Header/NavBar";
+import Select from "../components/Header/Select";
+import Logo from "../components/Header/Logo";
+import SigninButton from "../components/Header/SigninButton";
+import FeatureWrapper from "../components/Header/FeatureWrapper";
+import FeatureTitle from "../components/Header/FeatureTitle";
 import FormSection from "../sections/FormSection";
 
 
