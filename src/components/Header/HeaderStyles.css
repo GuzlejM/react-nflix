@@ -6,6 +6,21 @@
   padding: 30px 50px;
 }
 
+.wrapper-signin {
+  background: url("../../../public/images/misc/home-bg.jpg");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.header-wrapper-signin {
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px 50px;
+}
+
 .navbar-home {
   max-width: 1850px;
   width: 100%;

@@ -5,7 +5,9 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+
 import LandingPage from "./pages/LandingPage";
+import SigninPage from "./pages/SigninPage";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
     <Router>
        <Routes>
         <Route path="/" element={<LandingPage/>}/>
+        <Route path="/signin" element={<SigninPage />}/>
       </Routes>
     </Router>
   );
