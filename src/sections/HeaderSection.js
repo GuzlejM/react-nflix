@@ -6,11 +6,10 @@ import Logo from "../components/Header/Logo";
 import SigninButton from "../components/Header/SigninButton";
 import FeatureWrapper from "../components/Header/FeatureWrapper";
 import FeatureTitle from "../components/Header/FeatureTitle";
-import FormSection from "../sections/FormSection";
 
 
 
-function HeaderSection() {
+function HeaderSection({ children }) {
   
   return (
     <HeaderWrapper className="header-wrapper-home">
@@ -25,8 +24,8 @@ function HeaderSection() {
         <FeatureTitle className="feature-title-home">
           Unlimited movies, TV shows and more.
         </FeatureTitle>
-      <FormSection/>
       </FeatureWrapper>
+      {children}
     </HeaderWrapper>
   );
 }
