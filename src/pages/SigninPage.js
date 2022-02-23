@@ -27,7 +27,7 @@ function SigninPage() {
   function handleSubmit(event) {
     event.preventDefault();
 
-    navigate("/browse");
+    //navigate("/browse");
   }
 
   return (
