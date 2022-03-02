@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Enjoy on your TV.",
+    "subTitle": "Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.",
+    "image": "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png",
+    "alt": "Stranger Things on Netflix",
+    "direction": "story-item"
+  },
+  {
+    "id": 2,
+    "title": "Download your programmes to watch on the go.",
+    "subTitle": "Save your data and watch all your favourites offline.",
+    "image": "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg",
+    "alt": "Stranger Things on Netflix",
+    "direction": "story-item-reverse"
+  },
+  {
+    "id": 3,
+    "title": "Watch everywhere.",
+    "subTitle": "Stream unlimited films and TV programmes on your phone, tablet, laptop and TV without paying more.",
+    "image": "https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png",
+    "alt": "Stranger Things on Netflix",
+    "direction": "story-item"
+  },
+  {
+    "id": 4,
+    "title": "Create profiles for kids.",
+    "subTitle": "Send kids on adventures with their favorite characters in a space made just for them—free with your membership.",
+    "image": "https://occ-0-1489-2773.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABdFTpLmANuJpYneLq8L5m7CunMCi8e8Nl4y7xaPVWzG3IeoDoq17egTQAthApKg_4sdRWdwuR8KadWu1frjL3JQImpwq.png?r=fcd",
+    "alt": "Kids profiles on Netflix",
+    "direction": "story-item-reverse"
+  }
+
+]
