@@ -1,9 +1,12 @@
 import React from "react";
 import "./SignFormStyles.css";
 
-function SignFormButton({ children, ...restProps }) {
+function SignFormButton({ children, isGoogleSignIn, ...restProps }) {
   return (
-    <button className="sign-form-Button" type="submit" {...restProps}>
+    <button
+      className={`${isGoogleSignIn ? "google-sign-in" : ""} sign-form-Button`}
+      {...restProps}
+    >
       {children}
     </button>
   );

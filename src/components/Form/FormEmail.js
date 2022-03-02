@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./FormStyles.css";
 
-function FormEmail({ ...resProps }) {
-  return <input className="form-email" {...resProps} />;
+function FormEmail({ ...restProps }) {
+  
+  return <input className="form-email" {...restProps} />;
 }
 
 export default FormEmail;

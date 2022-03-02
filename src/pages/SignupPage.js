@@ -14,16 +14,16 @@ import SignFormLink from "../components/SignForm/SignFormLink";
 import SignFormCaptcha from "../components/SignForm/SignFormCaptcha";
 import SignFormError from "../components/SignForm/SignFormError";
 
-import { signInWithGoogle } from "../firebase/firebase.utils";
-
-function SigninPage() {
+function SignupPage() {
   const navigate = useNavigate();
 
   const [emailAddress, setEmailAddress] = useState("");
   const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+
   const [error, setError] = useState("");
 
-  const IsInvalid = password === "" || emailAddress === "";
+  const IsInvalid = password === "" || emailAddress === "" || confirmPassword === "";
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -54,14 +54,17 @@ function SigninPage() {
               value={password}
               onChange={({ target }) => setPassword(target.value)}
             />
+            <SignFormInput
+              type="password"
+              placeholder="Confirm Password"
+              autoComplete="off"
+              value={confirmPassword}
+              onChange={({ target }) => setConfirmPassword(target.value)}
+            />
             <SignFormButton disabled={IsInvalid}>Sign In</SignFormButton>
-            <SignFormButton onClick={signInWithGoogle} isGoogleSignIn>
-              {" "}
-              Sign in with Google{" "}
-            </SignFormButton>
             <SignFormText>
-              New to Netflix?
-              <SignFormLink href="/">Sign up now.</SignFormLink>
+              Have account already ?
+              <SignFormLink href="/signin">Sign in now.</SignFormLink>
             </SignFormText>
             <SignFormCaptcha>
               This page is protected by Google reCAPTCHA to ensure you are not a
@@ -75,4 +78,4 @@ function SigninPage() {
   );
 }
 
-export default SigninPage;
+export default SignupPage;
